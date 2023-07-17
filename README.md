@@ -113,6 +113,21 @@ For quick prototyping, I have made the following functions that you can add to y
     }
 ```
 
+## Script Functions and Descriptions
+
+| Function | Command | Description |
+|----------|---------|-------------|
+| Build | `gbuild` | Changes that affect the build system or external dependencies (e.g., gulp, broccoli, npm). |
+| Chore | `gchore` | Changes to the build process or auxiliary tools and libraries such as documentation generation. |
+| CI | `gci` | Changes to Continuous Integration configuration files and scripts (e.g., Travis, Circle, BrowserStack, SauceLabs). |
+| Docs | `gdocs` | Documentation-only changes. |
+| Feature | `gfeat` | Introducing new features. |
+| Fix | `gfix` | Bug fixes. |
+| Performance Improvement | `gperf` | Code changes that improve performance. |
+| Refactor | `grf` | Code changes that neither fixes a bug nor adds a feature. |
+| Style | `gsty` | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc). |
+| Test | `gtst` | Adding missing tests or correcting existing tests. |
+
 ## Contributing
 
 If you have any suggestions, bug reports, enhancements or modifications, feel free to make a pull request or open an issue. We appreciate any contribution.

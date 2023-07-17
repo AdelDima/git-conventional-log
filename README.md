@@ -1,6 +1,8 @@
-# Zsh Git Automation Script
+# Git Conventional Log Script
 
 This repository contains a Zsh script that simplifies git workflows, in compliance with the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and [commitlint](https://commitlint.js.org/) guidelines. This script encapsulates multiple git commands into one and automatically generates a meaningful commit message based on your input, including support for scopes.
+
+inspired by [Emoji-Log](https://github.com/ahmadawais/Emoji-Log/commits/master)
 
 ## Functions
 
@@ -40,7 +42,7 @@ This would execute `git add .`, `git commit -m "feat(ui/backend): implemented ne
 
 ## Bash/Zsh Workflow
 
-For quick prototyping, I have made the following functions that you can add to your .bashrc/.zshrc files and use Emoji-Log quickly.
+For quick prototyping, I have made the following functions that you can add to your .bashrc/.zshrc files and use script quickly.
 
 ```sh
     # Git Commit, Add all, and Push — in one step.
